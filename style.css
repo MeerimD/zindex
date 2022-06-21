@@ -1,0 +1,47 @@
+.container {
+    margin: auto;
+    border-radius: 5px;
+    width: 95%;
+    min-height: 700px;
+    background-color: lightgray;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .box {
+    width: 35%;
+    height: 300px;
+    position: absolute;
+  }
+   #red {
+    background-color: red;
+    z-index: 2;
+    left: 0;
+    top: 0;
+     border-radius: 5px;
+  }
+  
+  #blue {
+    background-color: blue;
+    z-index: 4;
+    top: 50px;
+    left: 450px;
+    border-radius: 5px;
+  }
+  
+  #green {
+    background-color: green;
+    z-index: 3;
+    top: 180px;
+    left: 160px;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 50px;
+    font-size: 60px;s
+  }
